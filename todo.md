@@ -95,3 +95,9 @@
 ## Deployment
 - [ ] Connect to GitHub repository
 - [ ] Push code to repository
+
+## Homepage Improvements
+- [x] Add professional logo and favicon
+- [x] Add hero section images
+- [x] Add feature section images
+- [x] Improve visual design inspired by Clyveris
