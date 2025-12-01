@@ -136,3 +136,9 @@
 - [x] Update favicon using existing logo
 - [x] Test all pages and navigation links
 - [x] Build production files and push to GitHub
+
+## Bug Fixes and Updates
+- [x] Fix 404 error on page reload (add server-side routing fallback)
+- [x] Add "Home" menu item to navigation
+- [x] Link "Sign in" and "E-Banking" to https://dashboard.clearpulsaro.com/
+- [ ] Build production files and push to GitHub

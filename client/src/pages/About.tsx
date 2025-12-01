@@ -14,14 +14,17 @@ export default function About() {
               <span className="text-2xl font-bold text-[#301CA0]">ClearPulse</span>
             </a>
           </Link>
-          <div className="hidden md:flex items-center gap-8">
-            <Link href="/about"><a className="text-[#7132CA] font-semibold">About</a></Link>
-            <Link href="/faq"><a className="text-gray-700 hover:text-[#7132CA]">FAQ</a></Link>
-            <Link href="/contact"><a className="text-gray-700 hover:text-[#7132CA]">Contact</a></Link>
-            <Link href="/dashboard"><a className="text-gray-700 hover:text-[#7132CA]">Sign in</a></Link>
-            <Link href="/dashboard">
-              <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-6">E-Banking</Button>
-            </Link>
+                    <div className="hidden md:flex items-center gap-8">
+            <Link href="/"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Home</a></Link>
+            <Link href="/about"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">About</a></Link>
+            <Link href="/faq"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">FAQ</a></Link>
+            <Link href="/contact"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Contact</a></Link>
+            <a href="https://dashboard.clearpulsaro.com/" className="text-gray-700 hover:text-[#7132CA] transition-colors">Sign in</a>
+            <a href="https://dashboard.clearpulsaro.com/">
+              <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-6">
+                E-Banking
+              </Button>
+            </a>
           </div>
         </div>
       </nav>

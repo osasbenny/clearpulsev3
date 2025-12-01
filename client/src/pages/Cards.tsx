@@ -1,3 +1,10 @@
+import PagePlaceholder from "@/components/PagePlaceholder";
+
 export default function Cards() {
-  return <div className="p-8"><h1 className="text-3xl font-bold">Cards</h1><p className="text-gray-600 mt-2">Feature under development</p></div>;
+  return (
+    <PagePlaceholder
+      title="Cards"
+      description="Manage your debit and credit cards. Freeze/unfreeze, report lost/stolen, and request new cards."
+    />
+  );
 }

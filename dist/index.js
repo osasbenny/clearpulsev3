@@ -1956,7 +1956,10 @@ function serveStatic(app) {
     );
   }
   app.use(express.static(distPath));
-  app.use("*", (_req, res) => {
+  app.get("*", (req, res) => {
+    if (req.originalUrl.startsWith("/api") || req.originalUrl.includes(".")) {
+      return;
+    }
     res.sendFile(path2.resolve(distPath, "index.html"));
   });
 }

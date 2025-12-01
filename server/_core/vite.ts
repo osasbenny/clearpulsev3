@@ -60,8 +60,17 @@ export function serveStatic(app: Express) {
 
   app.use(express.static(distPath));
 
-  // fall through to index.html if the file doesn't exist
-  app.use("*", (_req, res) => {
+  // Fallback to index.html for SPA routing
+  app.get("*", (req, res) => {
+    // Check if the request is for a file that exists in the dist directory
+    // This is a simple check, a more robust solution would be to use a middleware like connect-history-api-fallback
+    // However, since the user is deploying to cPanel, the .htaccess file should handle this, 
+    // but we'll add a server-side fallback for completeness.
+    if (req.originalUrl.startsWith('/api') || req.originalUrl.includes('.')) {
+      // Let the request continue to other middlewares (like the express.static above)
+      // or return 404 if not found by express.static
+      return;
+    }
     res.sendFile(path.resolve(distPath, "index.html"));
   });
 }

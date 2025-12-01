@@ -1,3 +1,10 @@
+import PagePlaceholder from "@/components/PagePlaceholder";
+
 export default function KYC() {
-  return <div className="p-8"><h1 className="text-3xl font-bold">KYC Verification</h1><p className="text-gray-600 mt-2">Feature under development</p></div>;
+  return (
+    <PagePlaceholder
+      title="KYC Verification"
+      description="Complete your Know Your Customer (KYC) verification to unlock full account features and higher limits."
+    />
+  );
 }

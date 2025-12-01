@@ -1,3 +1,10 @@
+import PagePlaceholder from "@/components/PagePlaceholder";
+
 export default function Transfers() {
-  return <div className="p-8"><h1 className="text-3xl font-bold">Transfers</h1><p className="text-gray-600 mt-2">Feature under development</p></div>;
+  return (
+    <PagePlaceholder
+      title="Transfers"
+      description="Initiate domestic and international money transfers. Set up recurring payments and manage beneficiaries."
+    />
+  );
 }
