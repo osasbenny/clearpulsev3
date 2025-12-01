@@ -8,6 +8,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
+import Bank from "./pages/Bank";
+import Save from "./pages/Save";
+import Borrow from "./pages/Borrow";
+import WealthAndRetire from "./pages/WealthAndRetire";
+import Insure from "./pages/Insure";
+import LearnAndPlan from "./pages/LearnAndPlan";
+import Payments from "./pages/Payments";
 import Dashboard from "./pages/Dashboard";
 import Accounts from "./pages/Accounts";
 import Transfers from "./pages/Transfers";
@@ -33,6 +40,13 @@ function Router() {
       <Route path={"/about"} component={About} />
       <Route path={"/faq"} component={FAQ} />
       <Route path={"/contact"} component={Contact} />
+      <Route path={"/bank"} component={Bank} />
+      <Route path={"/save"} component={Save} />
+      <Route path={"/borrow"} component={Borrow} />
+      <Route path={"/wealth-retire"} component={WealthAndRetire} />
+      <Route path={"/insure"} component={Insure} />
+      <Route path={"/learn-plan"} component={LearnAndPlan} />
+      <Route path={"/payments"} component={Payments} />
       
       {/* User dashboard routes */}
       <Route path={"/dashboard"} component={Dashboard} />

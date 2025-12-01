@@ -4,32 +4,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ArrowLeft, Mail, Phone, MapPin } from "lucide-react";
+import MainNavigation from "@/components/MainNavigation";
 
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/">
-            <a className="flex items-center gap-2">
-              <img src="/logo.png" alt="ClearPulse" className="h-10 w-10" />
-              <span className="text-2xl font-bold text-[#301CA0]">ClearPulse</span>
-            </a>
-          </Link>
-                    <div className="hidden md:flex items-center gap-8">
-            <Link href="/"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Home</a></Link>
-            <Link href="/about"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">About</a></Link>
-            <Link href="/faq"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">FAQ</a></Link>
-            <Link href="/contact"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Contact</a></Link>
-            <a href="https://dashboard.clearpulsaro.com/" className="text-gray-700 hover:text-[#7132CA] transition-colors">Sign in</a>
-            <a href="https://dashboard.clearpulsaro.com/">
-              <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-6">
-                E-Banking
-              </Button>
-            </a>
-          </div>
-        </div>
-      </nav>
+      <MainNavigation />
       <section className="bg-gradient-to-r from-[#7132CA] to-[#C47BE4] text-white py-20">
         <div className="container mx-auto px-4">
           <Link href="/">

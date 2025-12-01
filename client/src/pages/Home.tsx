@@ -1,34 +1,13 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Smartphone, Globe, FileText, HeadphonesIcon, Zap, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Shield, Smartphone, FileText, HeadphonesIcon, ArrowRight, CheckCircle2 } from "lucide-react";
+import MainNavigation from "@/components/MainNavigation";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation */}
-      <nav className="bg-white border-b sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/">
-            <a className="flex items-center gap-2">
-              <img src="/logo.png" alt="ClearPulse" className="h-10 w-10" />
-              <span className="text-2xl font-bold text-[#301CA0]">ClearPulse</span>
-            </a>
-          </Link>
-                    <div className="hidden md:flex items-center gap-8">
-            <Link href="/"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Home</a></Link>
-            <Link href="/about"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">About</a></Link>
-            <Link href="/faq"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">FAQ</a></Link>
-            <Link href="/contact"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Contact</a></Link>
-            <a href="https://dashboard.clearpulsaro.com/" className="text-gray-700 hover:text-[#7132CA] transition-colors">Sign in</a>
-            <a href="https://dashboard.clearpulsaro.com/">
-              <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-6">
-                E-Banking
-              </Button>
-            </a>
-          </div>
-        </div>
-      </nav>
+      <MainNavigation />
 
       {/* Hero Section */}
       <section className="bg-[#301CA0] relative overflow-hidden">
@@ -167,18 +146,18 @@ export default function Home() {
                   Open your first account at ClearPulse, and get a debit card and e-Banking 
                   codes from your mobile.
                 </p>
-                <img 
-                  src="/images/banking-professionals.jpg" 
-                  alt="Banking Professionals" 
-                  className="rounded-xl w-full"
-                />
+                  <img 
+                    src="/images/modern-bank.jpg" 
+                    alt="Banking Professionals" 
+                    className="rounded-xl w-full"
+                  />
               </CardContent>
             </Card>
 
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center mb-6">
-                  <Globe className="h-8 w-8 text-white" />
+                  <Smartphone className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-[#301CA0] mb-3">
                   Log in to ClearPulse Web
@@ -187,18 +166,18 @@ export default function Home() {
                   Get full control of your transactions and banking products, at ClearPulse 
                   and other banks, from your computer.
                 </p>
-                <img 
-                  src="/images/team-collaboration.jpg" 
-                  alt="Web Banking" 
-                  className="rounded-xl w-full"
-                />
+                  <img 
+                    src="/images/fintech-app.jpg" 
+                    alt="Web Banking" 
+                    className="rounded-xl w-full"
+                  />
               </CardContent>
             </Card>
 
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center mb-6">
-                  <FileText className="h-8 w-8 text-white" />
+                  <Shield className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-[#301CA0] mb-3">
                   Get ClearPulse Loan
@@ -207,11 +186,11 @@ export default function Home() {
                   Secure a consumer loan of up to $10,000 online. Apply from your mobile or 
                   computer, on the first day.
                 </p>
-                <img 
-                  src="/images/diverse-team.jpg" 
-                  alt="Loan Services" 
-                  className="rounded-xl w-full"
-                />
+                  <img 
+                    src="/images/hero-banking.jpg" 
+                    alt="Loan Services" 
+                    className="rounded-xl w-full"
+                  />
               </CardContent>
             </Card>
           </div>
