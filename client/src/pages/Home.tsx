@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Smartphone, FileText, HeadphonesIcon, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Shield, Smartphone, FileText, HeadphonesIcon, ArrowRight, CheckCircle2, Zap } from "lucide-react";
 import MainNavigation from "@/components/MainNavigation";
 
 export default function Home() {
