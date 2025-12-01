@@ -112,3 +112,8 @@
 
 ## Bug Fixes
 - [x] Fix nested anchor tag error on About page
+
+## Quality Assurance
+- [x] Test all navigation links and buttons
+- [x] Crop Shutterstock watermarks from images
+- [ ] Push cleaned images to GitHub
