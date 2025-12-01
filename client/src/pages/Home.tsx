@@ -12,16 +12,16 @@ export default function Home() {
           <Link href="/">
             <a className="flex items-center gap-2">
               <img src="/logo.png" alt="ClearPulse" className="h-10 w-10" />
-              <span className="text-2xl font-bold text-[#1E2A47]">ClearPulse</span>
+              <span className="text-2xl font-bold text-[#301CA0]">ClearPulse</span>
             </a>
           </Link>
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/about"><a className="text-gray-700 hover:text-[#00A9B8] transition-colors">About</a></Link>
-            <Link href="/faq"><a className="text-gray-700 hover:text-[#00A9B8] transition-colors">FAQ</a></Link>
-            <Link href="/contact"><a className="text-gray-700 hover:text-[#00A9B8] transition-colors">Contact</a></Link>
-            <Link href="/dashboard"><a className="text-gray-700 hover:text-[#00A9B8] transition-colors">Sign in</a></Link>
+            <Link href="/about"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">About</a></Link>
+            <Link href="/faq"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">FAQ</a></Link>
+            <Link href="/contact"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Contact</a></Link>
+            <Link href="/dashboard"><a className="text-gray-700 hover:text-[#7132CA] transition-colors">Sign in</a></Link>
             <Link href="/dashboard">
-              <Button className="bg-[#00A9B8] hover:bg-[#008A9A] text-white rounded-full px-6">
+              <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-6">
                 E-Banking
               </Button>
             </Link>
@@ -30,16 +30,16 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-[#1E2A47] relative overflow-hidden">
+      <section className="bg-[#301CA0] relative overflow-hidden">
         {/* Decorative circles */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#00A9B8] rounded-full opacity-10 transform translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#00A9B8] rounded-full opacity-10 transform -translate-x-1/2 translate-y-1/2"></div>
-        <div className="absolute top-1/2 right-1/4 w-32 h-32 border-4 border-[#00A9B8] rounded-full opacity-20"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#7132CA] rounded-full opacity-10 transform translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#7132CA] rounded-full opacity-10 transform -translate-x-1/2 translate-y-1/2"></div>
+        <div className="absolute top-1/2 right-1/4 w-32 h-32 border-4 border-[#7132CA] rounded-full opacity-20"></div>
         
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-              <p className="text-[#00A9B8] font-semibold mb-4 tracking-wider uppercase text-sm">ClearPulse Banking</p>
+              <p className="text-[#7132CA] font-semibold mb-4 tracking-wider uppercase text-sm">ClearPulse Banking</p>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                 Bank With Confidence,<br />
                 Harvest The Rewards
@@ -50,23 +50,23 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Link href="/dashboard">
-                  <Button className="bg-[#00A9B8] hover:bg-[#008A9A] text-white rounded-full px-8 py-6 text-lg">
+                  <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-8 py-6 text-lg">
                     Open An Account Now <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
                 <div className="flex items-center gap-3 text-white">
-                  <div className="w-12 h-12 rounded-full bg-[#00A9B8]/20 flex items-center justify-center">
-                    <HeadphonesIcon className="h-6 w-6 text-[#00A9B8]" />
+                  <div className="w-12 h-12 rounded-full bg-[#7132CA]/20 flex items-center justify-center">
+                    <HeadphonesIcon className="h-6 w-6 text-[#7132CA]" />
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Need help?</p>
-                    <p className="font-semibold text-lg">352929392</p>
+                    <p className="font-semibold text-lg">+1 (313) 307-9393</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="relative">
-              <div className="absolute -top-8 -right-8 w-64 h-64 bg-[#00A9B8] rounded-3xl transform rotate-12"></div>
+              <div className="absolute -top-8 -right-8 w-64 h-64 bg-[#7132CA] rounded-3xl transform rotate-12"></div>
               <img 
                 src="/images/team-meeting.jpg" 
                 alt="Banking Team" 
@@ -94,14 +94,14 @@ export default function Home() {
                   className="rounded-2xl shadow-lg mt-8"
                 />
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-[#00A9B8] text-white p-8 rounded-2xl shadow-xl">
+              <div className="absolute -bottom-4 -right-4 bg-[#7132CA] text-white p-8 rounded-2xl shadow-xl">
                 <div className="text-5xl font-bold">25</div>
                 <div className="text-sm">Years Of<br />experience</div>
               </div>
             </div>
             <div>
-              <p className="text-[#00A9B8] font-semibold mb-4 tracking-wider uppercase text-sm">Banking With Ease</p>
-              <h2 className="text-4xl font-bold text-[#1E2A47] mb-6">
+              <p className="text-[#7132CA] font-semibold mb-4 tracking-wider uppercase text-sm">Banking With Ease</p>
+              <h2 className="text-4xl font-bold text-[#301CA0] mb-6">
                 Make your online transactions safely
               </h2>
               <p className="text-gray-600 mb-8 leading-relaxed">
@@ -110,32 +110,32 @@ export default function Home() {
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-[#00A9B8] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="h-6 w-6 text-[#7132CA] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-[#1E2A47] mb-1">Online FX Conversion</h3>
+                    <h3 className="font-semibold text-[#301CA0] mb-1">Online FX Conversion</h3>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-[#00A9B8] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="h-6 w-6 text-[#7132CA] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-[#1E2A47] mb-1">Shipments and Shipments</h3>
+                    <h3 className="font-semibold text-[#301CA0] mb-1">Shipments and Shipments</h3>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-[#00A9B8] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="h-6 w-6 text-[#7132CA] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-[#1E2A47] mb-1">Bulk Payments</h3>
+                    <h3 className="font-semibold text-[#301CA0] mb-1">Bulk Payments</h3>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-[#00A9B8] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="h-6 w-6 text-[#7132CA] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-[#1E2A47] mb-1">Privacy & Security Guaranteed</h3>
+                    <h3 className="font-semibold text-[#301CA0] mb-1">Privacy & Security Guaranteed</h3>
                   </div>
                 </div>
               </div>
               <Link href="/about">
-                <Button className="bg-[#00A9B8] hover:bg-[#008A9A] text-white rounded-full px-8">
+                <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-8">
                   Visit Us Today
                 </Button>
               </Link>
@@ -148,18 +148,18 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-[#00A9B8] font-semibold mb-4 tracking-wider uppercase text-sm">Bank With Us</p>
-            <h2 className="text-4xl font-bold text-[#1E2A47] mb-4">
+            <p className="text-[#7132CA] font-semibold mb-4 tracking-wider uppercase text-sm">Bank With Us</p>
+            <h2 className="text-4xl font-bold text-[#301CA0] mb-4">
               For convenience in the digital age
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-[#00A9B8] rounded-xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center mb-6">
                   <Smartphone className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-[#1E2A47] mb-3">
+                <h3 className="text-xl font-bold text-[#301CA0] mb-3">
                   Come to ClearPulse
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -176,10 +176,10 @@ export default function Home() {
 
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-[#00A9B8] rounded-xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center mb-6">
                   <Globe className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-[#1E2A47] mb-3">
+                <h3 className="text-xl font-bold text-[#301CA0] mb-3">
                   Log in to ClearPulse Web
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -196,10 +196,10 @@ export default function Home() {
 
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-[#00A9B8] rounded-xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center mb-6">
                   <FileText className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-[#1E2A47] mb-3">
+                <h3 className="text-xl font-bold text-[#301CA0] mb-3">
                   Get ClearPulse Loan
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -222,18 +222,18 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[#00A9B8] font-semibold mb-4 tracking-wider uppercase text-sm">Our Work Process</p>
-              <h2 className="text-4xl font-bold text-[#1E2A47] mb-8">
+              <p className="text-[#7132CA] font-semibold mb-4 tracking-wider uppercase text-sm">Our Work Process</p>
+              <h2 className="text-4xl font-bold text-[#301CA0] mb-8">
                 It's a pleasure doing business with you
               </h2>
               
               <div className="space-y-8">
                 <div className="flex gap-4">
-                  <div className="w-16 h-16 bg-[#00A9B8] rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Shield className="h-8 w-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#1E2A47] mb-2">Banking Services</h3>
+                    <h3 className="text-xl font-bold text-[#301CA0] mb-2">Banking Services</h3>
                     <p className="text-gray-600">
                       ClearPulse has a great range of products to offer you complete banking services. 
                       So ditch your old bank and switch to ClearPulse today.
@@ -242,11 +242,11 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="w-16 h-16 bg-[#00A9B8] rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Zap className="h-8 w-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#1E2A47] mb-2">Business Transaction Accounts</h3>
+                    <h3 className="text-xl font-bold text-[#301CA0] mb-2">Business Transaction Accounts</h3>
                     <p className="text-gray-600">
                       We offer easy to use accounts that are designed exclusively to meet your business needs.
                     </p>
@@ -254,11 +254,11 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="w-16 h-16 bg-[#00A9B8] rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-16 h-16 bg-[#7132CA] rounded-xl flex items-center justify-center flex-shrink-0">
                     <FileText className="h-8 w-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#1E2A47] mb-2">Cash Management Account</h3>
+                    <h3 className="text-xl font-bold text-[#301CA0] mb-2">Cash Management Account</h3>
                     <p className="text-gray-600">
                       Want the flexibility of an everyday account with the interest of a term deposit? 
                       The Cash Management Account is for you!
@@ -273,7 +273,7 @@ export default function Home() {
                 alt="Business Banking" 
                 className="rounded-3xl shadow-2xl"
               />
-              <div className="absolute -bottom-8 -right-8 bg-[#00A9B8] text-white p-8 rounded-2xl shadow-xl border-4 border-dashed border-white">
+              <div className="absolute -bottom-8 -right-8 bg-[#7132CA] text-white p-8 rounded-2xl shadow-xl border-4 border-dashed border-white">
                 <div className="text-center">
                   <div className="text-4xl font-bold">Over 500k</div>
                   <div className="text-sm mt-2">Active<br />Customers</div>
@@ -281,7 +281,7 @@ export default function Home() {
               </div>
               <div className="absolute top-1/2 -right-12 bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#1E2A47]">38k+</div>
+                  <div className="text-3xl font-bold text-[#301CA0]">38k+</div>
                   <div className="text-sm text-gray-600 mt-1">Business Accounts</div>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#00A9B8] to-[#00C4D4]">
+      <section className="py-20 bg-gradient-to-r from-[#7132CA] to-[#C47BE4]">
         <div className="container mx-auto px-4 text-center text-white">
           <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
@@ -299,7 +299,7 @@ export default function Home() {
             Open your account today and experience the future of banking.
           </p>
           <Link href="/dashboard">
-            <Button className="bg-white text-[#00A9B8] hover:bg-gray-100 rounded-full px-8 py-6 text-lg font-semibold">
+            <Button className="bg-white text-[#7132CA] hover:bg-gray-100 rounded-full px-8 py-6 text-lg font-semibold">
               Open an Account Now <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
@@ -307,7 +307,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1E2A47] text-white py-12">
+      <footer className="bg-[#301CA0] text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
@@ -320,7 +320,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h3 className="font-semibold mb-4 text-[#00A9B8]">Quick Links</h3>
+              <h3 className="font-semibold mb-4 text-[#7132CA]">Quick Links</h3>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/"><a className="text-gray-400 hover:text-white transition-colors">Home</a></Link></li>
                 <li><Link href="/about"><a className="text-gray-400 hover:text-white transition-colors">About</a></Link></li>
@@ -329,7 +329,7 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4 text-[#00A9B8]">Services</h3>
+              <h3 className="font-semibold mb-4 text-[#7132CA]">Services</h3>
               <ul className="space-y-2 text-sm">
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Personal Banking</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Business Banking</a></li>
@@ -338,12 +338,12 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4 text-[#00A9B8]">Contact Us</h3>
+              <h3 className="font-semibold mb-4 text-[#7132CA]">Contact Us</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li>141 Rue De Hollerich</li>
-                <li>Luxembourg</li>
-                <li>Phone: 352929392</li>
-                <li>Email: info@clearpulse.com</li>
+                <li>789 Enterprise Way, Floor 2</li>
+                <li>NY, New York, 10016</li>
+                <li>Phone: +1 (313) 307-9393</li>
+                <li>Email: info@clearpulsaro.com</li>
               </ul>
             </div>
           </div>
