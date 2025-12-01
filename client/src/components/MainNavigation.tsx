@@ -36,12 +36,12 @@ export default function MainNavigation() {
             </a>
           </Link>
           <div className="flex items-center gap-4">
-            <a href="https://dashboard.clearpulsaro.com/" className="text-sm font-medium uppercase tracking-wider hover:underline">
+            <a href="https://dashboard.clearpulsaro.com/dashboard" className="text-sm font-medium uppercase tracking-wider hover:underline">
               <Button variant="ghost" className="text-white hover:bg-white/10 px-4 py-2 rounded-none border-b-2 border-transparent hover:border-white transition-all duration-300">
                 Login
               </Button>
             </a>
-            <a href="https://dashboard.clearpulsaro.com/">
+            <a href="https://dashboard.clearpulsaro.com/dashboard">
               <Button className="bg-[#7132CA] hover:bg-[#C47BE4] text-white uppercase tracking-wider rounded-none px-4 py-2">
                 Open Account
               </Button>

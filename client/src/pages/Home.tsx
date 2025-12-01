@@ -29,11 +29,11 @@ export default function Home() {
                 corporate bonds in dollars, euros and pounds.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
-                <Link href="/dashboard">
+                <a href="https://dashboard.clearpulsaro.com/dashboard">
                   <Button className="bg-[#7132CA] hover:bg-[#301CA0] text-white rounded-full px-8 py-6 text-lg">
                     Open An Account Now <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
-                </Link>
+                </a>
                 <div className="flex items-center gap-3 text-white">
                   <div className="w-12 h-12 rounded-full bg-[#7132CA]/20 flex items-center justify-center">
                     <HeadphonesIcon className="h-6 w-6 text-[#7132CA]" />
